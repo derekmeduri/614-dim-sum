@@ -15,8 +15,8 @@ const Navigation = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="#about" element={<About />} />
-        <Route path="/" element={<Contact />} />
+        <Route path="/#about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/payment-success" element={<PaymentSuccess />} />

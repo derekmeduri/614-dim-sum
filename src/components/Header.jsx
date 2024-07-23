@@ -13,10 +13,10 @@ const Header = () => {
                 <div className="nav-menu-wrapper flex items-center justify-between space-x-10">
                     <Link to="/" 
                     className="text-xl hover:text-red-600">Home</Link>
-                    <Link to="#about" 
+                    <Link to="/#about" 
                     className="text-xl hover:text-red-600">About</Link>
                     <Link
-                     to="#contact" 
+                     to="/contact" 
                      className="text-xl hover:text-red-600">Contact</Link>
                 </div>
                 <div className="flex items-center justify-center space-x-4 pr-4">
